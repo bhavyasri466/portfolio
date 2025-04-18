@@ -1,0 +1,95 @@
+  /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #115;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #128;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+/* Section Styling for Home, Portfolio, and Contact Pages */
+section {
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+}
+
+/* Content Box Styling */
+.content-box {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.content-box:hover {
+    transform: scale(1.05);
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Section */
+.footer-bg {
+    text-align: center;
+    padding: 10px;
+    background-color: #115;
+    color: white;
+    margin-top: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
